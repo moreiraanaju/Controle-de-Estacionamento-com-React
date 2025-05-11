@@ -1,0 +1,24 @@
+.vaga-card {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 200px;
+  }
+  
+  .vaga-reservada {
+    background-color: #ffe6e6; /* vermelho claro */
+    border-left: 5px solid #ff4d4d;
+  }
+  
+  .vaga-disponivel {
+    background-color: #e6ffe6; /* verde claro */
+    border-left: 5px solid #33cc33;
+  }
+  
+  .vaga-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
